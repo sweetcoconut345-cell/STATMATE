@@ -1,170 +1,153 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Statistika Adventure</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>STATMATE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
 
-<div class="container">
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
 
-<div id="coverPage">
+        <div class="logo">
+            <i class="fa-solid fa-chart-column"></i>
+            <h2>STATMATE</h2>
+        </div>
 
-<h1>📊 Statistika Adventure</h1>
-<h2>Misi Penyelamat Data Kota Harmoni</h2>
+        <ul class="menu">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="materi.html">Materi</a></li>
+            <li><a href="latihan.html">Latihan</a></li>
+            <li><a href="kuis/index.html">Kuis</a></li>
+            <li><a href="#">Tentang</a></li>
+        </ul>
 
-<div class="identity-box">
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
 
-<h3>Identitas Asesmen</h3>
+    </nav>
+</header>
 
-<p><strong>Jenjang:</strong> SMP</p>
-<p><strong>Kelas/Semester:</strong> VIII / Genap</p>
-<p><strong>Mata Pelajaran:</strong> Matematika</p>
-<p><strong>Materi:</strong> Statistika</p>
 
-<h4>Tujuan Pembelajaran</h4>
+<!-- HERO -->
+<section class="hero">
 
-<ul>
-<li>Menentukan mean, median, dan modus.</li>
-<li>Menentukan jangkauan data.</li>
-<li>Menganalisis tabel frekuensi.</li>
-<li>Menyelesaikan masalah statistika kontekstual.</li>
-<li>Mengembangkan kemampuan berpikir kritis melalui soal HOTS.</li>
-</ul>
+    <div class="hero-text">
 
-<h4>Petunjuk</h4>
+        <h1>
+            Belajar Statistika
+            Jadi <span>Menyenangkan!</span>
+        </h1>
 
-<ul>
-<li>Kerjakan secara mandiri.</li>
-<li>Baca soal dengan teliti.</li>
-<li>Pilih jawaban yang paling tepat.</li>
-<li>Skor akan muncul di akhir permainan.</li>
-</ul>
+        <p>
+            Media pembelajaran interaktif untuk siswa kelas VIII SMP.
+            Mudah dipahami, seru, dan penuh pengalaman belajar.
+        </p>
 
-</div>
+        <a href="materi.html" class="btn">
+            📖 Mulai Belajar
+        </a>
 
-<input type="text" id="playerName" placeholder="Masukkan Nama">
+    </div>
 
-<button onclick="showStory()">
-🚀 Lanjutkan
-</button>
+    <div class="hero-image">
+        <img src="image/gambar-siswa.png">
+    </div>
 
-</div>
-<div id="storyPage" style="display:none;">
+</section>
 
-<h1>🏙️ Kota Harmoni Membutuhkan Bantuanmu!</h1>
 
-<div class="story-box">
+<!-- FITUR -->
+<section class="fitur">
 
-<p>
-Selamat datang, Analis Data Muda!
-</p>
+    <h2>Kenapa Memilih STATMATE?</h2>
 
-<p>
-Kota Harmoni dikenal sebagai kota yang maju karena seluruh keputusan penting dibuat berdasarkan data yang akurat.
-</p>
+    <div class="fitur-container">
 
-<p>
-Namun hari ini terjadi gangguan besar pada Pusat Data Kota Harmoni. Informasi mengenai pendidikan, perdagangan, dan aktivitas warga menjadi tidak teratur.
-</p>
+        <div class="card">
+            <i class="fa-solid fa-book"></i>
+            <h3>Materi Interaktif</h3>
+            <p>
+                Materi mudah dipahami dan
+                dilengkapi ilustrasi.
+            </p>
+        </div>
 
-<p>
-Wali Kota Harmoni membutuhkan bantuanmu untuk memulihkan data-data tersebut.
-</p>
+        <div class="card">
+            <i class="fa-solid fa-pen"></i>
+            <h3>Latihan Soal</h3>
+            <p>
+                Tersedia latihan untuk
+                menguji pemahaman siswa.
+            </p>
+        </div>
 
-<p>
-Untuk menyelesaikan misi ini, kamu harus menaklukkan 10 tantangan statistika.
-</p>
+        <div class="card">
+            <i class="fa-solid fa-trophy"></i>
+            <h3>Kuis Menarik</h3>
+            <p>
+                Kerjakan kuis dan dapatkan skor.
+            </p>
+        </div>
 
-<p>
-Setiap jawaban yang benar akan membantu memperbaiki sistem data kota.
-</p>
+    </div>
 
-<h3>
-🦸 Apakah kamu siap menjadi Pahlawan Data Kota Harmoni?
-</h3>
+</section>
 
-</div>
+<section class="materi">
 
-<button onclick="startMission()">
-🗺️ Mulai Petualangan
-</button>
+<h2>Materi yang Akan Dipelajari</h2>
 
-</div>
-<div id="quizPage" style="display:none;">
+<div class="materi-container">
 
-<div class="progress">
-<div id="progressBar"></div>
-</div>
+    <div class="materi-card">
+        <h3>Mean (Rata-rata)</h3>
+        <p>Pelajari cara menghitung rata-rata data.</p>
+        <a href="mean.html">Pelajari →</a>
+    </div>
 
-<h3 id="missionTitle"></h3>
+    <div class="materi-card">
+        <h3>Median (Nilai Tengah)</h3>
+        <p>Temukan nilai tengah suatu data.</p>
+        <a href="median.html">Pelajari →</a>
+    </div>
 
-<div id="timerBox">
-⏳ Waktu: <span id="timer">30</span> detik
-</div>
-
-<div class="card">
-<div id="question"></div>
-<div id="answers"></div>
-</div>
-
-<button id="nextBtn" onclick="nextQuestion()">
-Soal Berikutnya
-</button>
-
-</div>
-
-<div id="resultPage" style="display:none;">
-
-<h1>🏆 Misi Selesai!</h1>
-
-<div class="ending-story">
-
-<h2>🎉 Kota Harmoni Terselamatkan!</h2>
-
-<p>
-Selamat! Kamu telah membantu Kota Harmoni memulihkan seluruh data statistik yang hilang.
-</p>
-
-<p>
-Berkat kemampuan analisismu, sistem data kota kini kembali berfungsi dengan baik.
-</p>
-
-<p>
-Data pendidikan, perdagangan, dan aktivitas warga berhasil dipulihkan sehingga Kota Harmoni dapat kembali mengambil keputusan berdasarkan informasi yang akurat.
-</p>
-
-<p>
-Wali Kota Harmoni mengucapkan terima kasih atas kerja keras dan ketelitianmu dalam menyelesaikan setiap tantangan statistika.
-</p>
+    <div class="materi-card">
+        <h3>Modus</h3>
+        <p>Pelajari data yang paling sering muncul.</p>
+        <a href="modus.html">Pelajari →</a>
+    </div>
 
 </div>
 
-<h2 id="studentName"></h2>
+</section>
 
-<p id="finalScore"></p>
+<footer>
 
-<p id="finalGrade"></p>
+    <h3>STATMATE</h3>
 
-<a href="../index.html" class="btn-home">
-    🏠 Kembali ke Beranda
-</a> 
+    <p>
+        Media Pembelajaran Statistika
+        Kelas VIII SMP
+    </p>
 
-<button onclick="location.reload()">
-🔄 Main Lagi
-</button>
+</footer>
 
-</div>
 
-</div>
-
-<audio id="bgMusic" loop>
-    <source src="assetsbackground.mp3" type="audio/mpeg">
-</audio>
-
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
