@@ -1,0 +1,221 @@
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(135deg,#1e3a8a,#0f766e);
+min-height:100vh;
+color:white;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+#coverPage,
+#quizPage,
+#resultPage{
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(8px);
+
+    color:#1e293b;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+background:white;
+color:#1e293b;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+h1,h2,h3{
+text-align:center;
+}
+
+.identity-box{
+background:#f8fafc;
+padding:15px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+padding:12px;
+font-size:16px;
+margin-top:10px;
+margin-bottom:15px;
+border-radius:10px;
+border:1px solid #cbd5e1;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+.progress{
+height:20px;
+background:#cbd5e1;
+border-radius:20px;
+margin-bottom:20px;
+overflow:hidden;
+}
+
+#progressBar{
+height:100%;
+width:0%;
+background:#22c55e;
+transition:.5s;
+}
+
+.card{
+background:#f8fafc;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.option{
+background:#e2e8f0;
+padding:12px;
+margin-top:10px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.option:hover{
+background:#cbd5e1;
+}
+
+.correct{
+background:#22c55e !important;
+color:white;
+}
+
+.wrong{
+background:#ef4444 !important;
+color:white;
+}
+
+#nextBtn{
+display:none;
+}
+
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+
+    background-image:url('assetskota-harmoni.jpg.png');
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    min-height:100vh;
+}
+.story-box{
+background:#f8fafc;
+padding:20px;
+border-radius:15px;
+line-height:1.8;
+margin-bottom:20px;
+color:#1e293b;
+}
+
+.story-box p{
+font-size:17px;
+color:#1e293b;
+}
+
+.story-box h3{
+color:#0f172a;
+}
+
+#timerBox{
+    display:block !important;
+    visibility:visible !important;
+    color:red !important;
+    font-size:24px !important;
+    font-weight:bold;
+    text-align:center;
+    margin:15px 0;
+}
+
+#missionTitle{
+
+font-size:28px;
+
+font-weight:bold;
+
+text-align:center;
+
+padding:15px;
+
+background:linear-gradient(
+135deg,
+#dbeafe,
+#bfdbfe
+);
+
+border-radius:15px;
+
+margin-bottom:15px;
+
+color:#1e40af;
+
+}
+
+.ending-story{
+
+background:linear-gradient(
+135deg,
+#ecfccb,
+#dcfce7
+);
+
+padding:20px;
+
+border-radius:15px;
+
+margin-bottom:20px;
+
+line-height:1.8;
+
+color:#14532d;
+
+border-left:8px solid #22c55e;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.btn-home{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#4361ee;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-home:hover{
+    background:#2747c7;
+    transform:translateY(-3px);
+}
